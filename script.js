@@ -13,7 +13,7 @@ function addTask(taskText = null, isNew = true) {
     if (text === "") return;
 
     if(isNew) {
-        let tasks = getTasks();
+        let tasks = getTasks(); 
         tasks.push(text);
         saveTasks(tasks);
     }
